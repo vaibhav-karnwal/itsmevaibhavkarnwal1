@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/vaibhav.png";
 import Tilt from "react-parallax-tilt";
 import github from "../../Assets/github.png";
-import instagram from "../../Assets/facebook.png";
+import instagram from "../../Assets/instagram.png";
 import twitter from "../../Assets/twitter.png";
 import linkedin from "../../Assets/linkedin.png";
 
@@ -63,7 +63,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={linkedin} className="icon-size  home-social-icons" ></img>
+                  ><img src={github} className="icon-size " ></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -72,7 +72,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={github} className="icon-size  home-social-icons" ></img>
+                  ><img src={twitter} className="icon-size " ></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -81,7 +81,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={instagram} className="icon-size  home-social-icons" ></img>
+                  ><img src={linkedin} className="icon-size " ></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -90,7 +90,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
-                  ><img src={twitter} className="icon-size  home-social-icons" ></img>
+                  ><img src={instagram} className="icon-size" ></img>
                 </a>
               </li>
             </ul>
