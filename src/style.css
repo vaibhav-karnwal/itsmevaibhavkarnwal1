@@ -321,7 +321,7 @@ html {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 4em !important;
 }
 
 @media (max-width: 767px) {
