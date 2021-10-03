@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import github from "../Assets/github.png";
-import instagram from "../Assets/facebook.png";
+import instagram from "../Assets/instagram.png";
 import twitter from "../Assets/twitter.png";
 import linkedin from "../Assets/linkedin.png";
 
@@ -26,7 +26,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={linkedin} className="icon-size  home-social-icons" ></img>
+                  ><img src={github} className="icon-size" ></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -36,7 +36,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={github} className="icon-size  home-social-icons" ></img>
+                  ><img src={twitter} className="icon-size" ></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -46,7 +46,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={instagram} className="icon-size  home-social-icons" ></img>
+                  ><img src={linkedin} className="icon-size" ></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -56,7 +56,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour home-social-icons"
-                  ><img src={twitter} className="icon-size  home-social-icons" ></img>
+                  ><img src={instagram} className="icon-size" ></img>
                 </a>
               </li>
           </ul>
