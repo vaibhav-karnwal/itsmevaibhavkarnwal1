@@ -62,7 +62,7 @@ function Resume() {
             <Resumecontent
               title="Computer Science & Engineering [K.S.V.C.E.M, Bijnor] "
               date="2018 - 2021"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              content={[`CGPA: 8.0 (complete)`]}
             />
 
             <h3 className="resume-title">Ranks and Achivements</h3>
