@@ -22,8 +22,9 @@ function Footer() {
               <li className="social-icons">
                 <a
                   href="https://github.com/vaibhav-karnwal"
+                  style={{ color: "white" }}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                   ><img src={github} className="icon-size " ></img>
                 </a>
@@ -31,8 +32,9 @@ function Footer() {
               <li className="social-icons">
                 <a
                   href="https://twitter.com/algocreater"
+                  style={{ color: "white" }}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                   ><img src={twitter} className="icon-size " ></img>
                 </a>
@@ -40,8 +42,9 @@ function Footer() {
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/vaibhav-karnwal/"
+                  style={{ color: "white" }}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
                   ><img src={linkedin} className="icon-size " ></img>
                 </a>
@@ -49,8 +52,9 @@ function Footer() {
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/vaibhavkarnwal2812/"
+                  style={{ color: "white" }}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="icon-colour home-social-icons"
                   ><img src={instagram} className="icon-size" ></img>
                 </a>
