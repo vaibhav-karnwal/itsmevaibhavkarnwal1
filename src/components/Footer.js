@@ -4,6 +4,10 @@ import github from "../Assets/github.png";
 import instagram from "../Assets/instagram.png";
 import twitter from "../Assets/twitter.png";
 import linkedin from "../Assets/linkedin.png";
+import {AiFillLinkedin} from "react-icons/ai";
+import {AiOutlineGithub} from "react-icons/ai";
+import {FiTwitter} from "react-icons/fi";
+import {AiOutlineInstagram} from "react-icons/ai";
 
 function Footer() {
   let date = new Date();
@@ -25,8 +29,8 @@ function Footer() {
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour  home-social-icons"
-                  ><img src={github} className="icon-size" ></img>
+                  className="icon-colour"
+                  ><AiOutlineGithub/>
                 </a>
               </li>
               <li className="social-icons">
@@ -35,8 +39,8 @@ function Footer() {
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour  home-social-icons"
-                  ><img src={twitter} className="icon-size" ></img>
+                  className="icon-colour  "
+                  ><FiTwitter/>
                 </a>
               </li>
               <li className="social-icons">
@@ -45,8 +49,8 @@ function Footer() {
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour  home-social-icons"
-                  ><img src={linkedin} className="icon-size" ></img>
+                  className="icon-colour "
+                  ><AiFillLinkedin/>
                 </a>
               </li>
               <li className="social-icons">
@@ -55,8 +59,8 @@ function Footer() {
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="icon-colour home-social-icons"
-                  ><img src={instagram} className="icon-size" ></img>
+                  className="icon-colour"
+                  ><AiOutlineInstagram/>
                 </a>
               </li>
           </ul>
