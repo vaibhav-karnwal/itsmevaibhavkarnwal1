@@ -26,7 +26,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={github} className="icon-size " ></img>
+                  ><img src={github} className="icon-size " alt="social"></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -36,7 +36,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={twitter} className="icon-size " ></img>
+                  ><img src={twitter} className="icon-size " alt="social"></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -46,7 +46,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour  home-social-icons"
-                  ><img src={linkedin} className="icon-size " ></img>
+                  ><img src={linkedin} className="icon-size " alt="social"></img>
                 </a>
               </li>
               <li className="social-icons">
@@ -56,7 +56,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="icon-colour home-social-icons"
-                  ><img src={instagram} className="icon-size" ></img>
+                  ><img src={instagram} className="icon-size" alt="social"></img>
                 </a>
               </li>
             </ul>
