@@ -1,9 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import github from "../Assets/github.png";
-import instagram from "../Assets/instagram.png";
-import twitter from "../Assets/twitter.png";
-import linkedin from "../Assets/linkedin.png";
 import {AiFillLinkedin} from "react-icons/ai";
 import {AiOutlineGithub} from "react-icons/ai";
 import {FiTwitter} from "react-icons/fi";
