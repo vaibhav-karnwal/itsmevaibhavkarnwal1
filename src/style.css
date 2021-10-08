@@ -295,6 +295,10 @@ html {
   padding-left: 45px !important;
 }
 
+.heading-profile {
+  padding-left: 45px !important;
+}
+
 .main-name {
   color: rgb(22, 146, 218);
   font-size: 3.2rem;
@@ -317,15 +321,21 @@ html {
 }
 @media (max-width: 767px) {
   .home-section {
+    min-height: 600px;
     background-size: cover;
     padding-top: 30px !important;
   }
   .heading {
     font-size: 1.4em !important;
+    padding-left: 5px !important;
   }
   
   .heading-name {
     font-size: 1.4em !important;
+    padding-left: 5px !important;
+  }
+  .heading-profile {
+    padding-left: 5px !important;
   }
   
   .main-name {
