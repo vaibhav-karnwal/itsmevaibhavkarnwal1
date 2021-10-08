@@ -317,8 +317,8 @@ html {
 }
 @media (max-width: 767px) {
   .home-section {
-    min-height: 800px;
-    padding-top: 130px !important;
+    background-size: cover;
+    padding-top: 30px !important;
   }
   .heading {
     font-size: 1.4em !important;
