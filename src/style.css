@@ -141,10 +141,14 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #000000 !important;
+    background-color: #212935d8 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
+  }
+  .navbar-toggler span {
+    height: 2px !important;
+    width: 20px !important;
   }
 }
 .navbar-brand {
@@ -165,7 +169,7 @@ html {
 
 @media (max-width: 767px) {
   .logo {
-    font-size: 25px !important;
+    font-size: 20px !important;
   }
 }
 
@@ -283,7 +287,7 @@ html {
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 45px !important;
 }
 
 .heading-name {
@@ -308,7 +312,26 @@ html {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
+.chat-button{
+  background-color: crimson;
+}
 @media (max-width: 767px) {
+  .home-section {
+    min-height: 800px;
+    padding-top: 130px !important;
+  }
+  .heading {
+    font-size: 1.4em !important;
+  }
+  
+  .heading-name {
+    font-size: 1.4em !important;
+  }
+  
+  .main-name {
+    color: rgb(22, 146, 218);
+    font-size: 2rem;
+  }
   .Typewriter__wrapper {
     font-size:2.2em !important;
     font-weight: 500 !important;
