@@ -80,11 +80,11 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href=""
+                href="https://mega.nz/folder/pJkg3SyS#wCcXEjVxtQdpGssorrvJ5g"
                 target="_blank"
                 rel="noreferrer"
               >
-                Blogs
+                Study-Material
               </Nav.Link>
             </Nav.Item>
 
